@@ -1,0 +1,310 @@
+@media only screen and (min-width:1025px) and (max-width:1400px){
+    .homePage {
+        .container{
+            padding-top: 140px;
+        }
+    }
+    .heroText{
+        font-size: 30px;
+        padding-bottom: 0;
+        margin-bottom: 20px;
+    }
+    .swiper-wrapper{
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (min-width:768px) and (max-width:1200px){
+         
+    .slideContent {
+        font-size: 28px;
+    }
+
+}
+@media only screen and (max-width:767px) {
+    body{
+        font-size: 8px;
+    }
+    .header-top{
+        top: 35px;
+    }
+   .getTouch{
+       font-size: 12px;
+       height: auto;
+       padding: 10px;
+       height: 40px;
+   }
+   .toggle-menu{
+       height: 33px;
+   }
+   .logo{
+       top: -10px;
+   }
+    .logo svg{
+        width: 70px;
+    }
+    .toggle-menu{
+        top: 0;
+    }
+    .homePage .text{
+        font-size: 4em;
+        padding: 10px 35px 10px 15px;
+    }
+    .tab-content{
+        padding-left: 0!important;
+    }
+    nav ul{
+        padding:0
+    }
+    .thoughtsSetion .col-md-7{
+        margin-bottom: 10px;
+    }
+    .fullDiv{
+        height: 50vh;
+    }
+    .halfDiv {
+        height: 25vh;
+    }
+    .slideTitle{
+        font-size: 14px;
+    }
+    nav { width: 100%;}
+    .nav-right-content{
+        padding-top: 30px;
+        p{
+            font-size: 14px;
+        }
+    }
+    .letsTalk .p-tp-90{
+        padding-top: 0;
+    }
+    .letsTalk  .col-md-6.mb-5.pb-5{
+        padding-bottom: 0!important;
+        padding-left: 0!important;
+    }
+    .letsTalk  .col-md-6:nth-child(3), .letsTalk  .col-md-6:nth-child(4){
+         padding-left: 0!important;
+    }
+    
+    .letsTalk .fp-tableCell .col-md-6{
+        margin-bottom: 30px!important;
+    }
+    .boxContent a:after {
+        content: '';
+        display: inline-block;
+        width: 25px;
+        margin: 5px 0 -5px 10px;
+        background-size: 50px !important;
+        height: 20px;
+        background: url(../img/arrow.svg) no-repeat right center;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+    }
+    .featuredClient{
+        padding-bottom: 0;
+    }
+    
+    .logo-box {
+        width: 100px;
+        text-align: center;
+        margin-bottom: 10px;
+        img{
+            width: 50%;
+        }
+    }
+    .letsTalk .email{
+        margin-bottom: 20px;
+    }
+    .social-icons, .footer-menu{
+        justify-content: flex-start;
+    }
+    .signupFree span {
+        display: inline-block;
+        width: 25px;
+        height: 14px;
+        background-size: 50px;
+        
+    }
+    .slider__previous{
+        right: 40%;
+    }
+    .slide__title{
+        position: absolute;
+        top: 0;
+        height: 100%; 
+    }
+    .slideContent {
+        font-size: 16px;
+    }
+    .slide__title.slideWithNoImage{
+        position: relative;
+    }
+    .slide__title.slideWithNoImage .slideTitle, .slide__title.slideWithNoImage .slideContent{
+        font-size: 24px;
+    }
+    .letsTalk{
+        padding: 40px 0;
+    }
+    .footerLogo{
+        width: 100px;
+        padding: 10px 0;
+    }
+    .letsTalk .email::before{
+        bottom: 3px;
+    }
+    .logoMainDiv{
+        .logo-box{
+            width: 33.3333%;
+        }
+    }
+   .yellowBg .text{
+       font-size: 4em;
+       padding: 10px 20px;
+   }
+   .fp-viewing-sectionThree .stikyLogo{
+       svg{
+           max-width: 200px;
+       }
+   }
+   .stikyLogo{
+       top: 40px;
+       svg{
+           max-width: 100px;
+       }
+   }
+   .fp-viewing-aboutUs .stikyLogo, 
+   .fp-viewing-workSection .stikyLogo, 
+   .fp-viewing-letUsKnowSection, 
+   .fp-viewing-7 .stikyLogo, 
+   .fp-viewing-letUsKnowSection .stikyLogo,
+   .fp-viewing-8 .stikyLogo {
+       left: 50px;
+    }
+    .featuredClient .container{
+        padding-top: 50px;
+    }
+    .featuredClient .clients-l .logo-box img{
+        width: 50px;
+    }
+    .featuredClient h3{
+        padding-bottom: 0!important;
+    }
+    .featuredClient .f-clients{
+        margin-top: 0;
+    }
+    .defaultContent p{
+        font-size: 22px;
+    }
+    .signupFree.active{
+        flex-flow: column;
+        width: 100%;
+        padding:10px 20px ;
+    }
+    .signupFree.active > div{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .signupFree.active form{
+        padding:0;
+        width: 100%;
+    }
+    .signupFree .textField{
+        flex: 1;
+    }
+    .heroSection.image-banner h1{
+        font-size: 20px;
+    }
+    .heroSection.image-banner h2{
+        font-size: 40px;
+    }
+    .heroSection .bannerText{
+        margin-bottom: -30px;
+    }
+    .stikyLogo.innerPage {
+        max-width: 40px;
+        top: 33px;
+    }
+    .toggle-menu{
+        top: -4px;
+    }
+    .p-content{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .p-content .circle{
+        width: 190px;
+        height: 190px;
+    }
+    .p-content .circle{
+        margin: 0!important;
+    }
+    .circle-box{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .circle-box.mr-5{
+        margin: 0!important;
+    }
+    .col-md-7.ml-5{
+        margin: 0!important;
+    }
+    .p-content .circle span {
+        width: 100%;
+        font-size: 0.541em;
+        margin-top: -87px;
+    }
+    .p-content:last-child{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .slide__title{
+        position: relative;
+        padding: 20px;
+    }
+    .heroSection{
+        height: 350px;;
+    }
+     .innerPage-header.sticky .header-top .stikyLogo.innerPage {
+        max-width: 40px;
+        top: 14px;
+    }
+    .mkoContactform.mktoForm .mktoRequiredField label.mktoLabel, .mkoContactform.mktoForm .mktoLabel, .mkoContactform.mktoForm .mktoLogicalField label{
+        font-size: 18px!important;
+    }
+    .mkoContactform.mktoForm .mktoFormRow{
+        width: 100%!important;
+        padding-right: 0!important;
+    }
+    .mkoContactform input[type="text"], .mkoContactform input[type="email"], .mkoContactform input[type="number"], .mkoContactform input[type="tel"], .mkoContactform select, .mkoContactform.mktoForm .mktoField, .mkoContactform textarea{
+        min-height: 50px!important;
+    }
+    .mkoContactform select, .mkoContactform select, 
+    .mkoContactform.mktoForm .mktoField{ 
+        padding-top: 0!important; 
+        padding-bottom: 0!important;
+        background-position: right -15px!important;
+    }
+    .mkoContactform.mktoForm .mktoLogicalField label:before{
+        padding: 12px;
+            margin-right: 15px;
+    }
+    .mkoContactform.mktoForm .mktoLogicalField .mktoField:checked + label:after{
+        width: 24px;
+        height: 28px;
+        background-size: 100%!important;
+    }
+    .mkoContactform.mktoForm .mktoLogicalField label{
+        font-size: 14px!important;
+    }
+    .mkoContactform.mktoForm .mktoFormRow:nth-child(14) .mktoLogicalField {
+        margin-top: -6px !important;
+    }
+    .mkoContactform input[type="text"], .mkoContactform input[type="email"], .mkoContactform input[type="number"], .mkoContactform input[type="tel"], .mkoContactform select, .mkoContactform.mktoForm .mktoField, .mkoContactform textarea{
+        font-size: 16px!important;
+    }
+    .mkoContactform.mktoForm .mktoButtonWrap.mktoSimple .mktoButton{
+        width: 100%;
+    }
+}

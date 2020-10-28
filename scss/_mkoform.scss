@@ -1,0 +1,167 @@
+.mkoContactform{
+    display: inline-block;
+    padding: 50px 0;
+    width: 100%!important;
+    
+}
+.mkoContactform.mktoForm .mktoFormRow{
+    width: 50%!important;
+    clear: none!important;
+    padding: 0 20px 50px 0!important;
+}
+// .mkoContactform.mktoForm .mktoFormRow:n
+.mkoContactform input[type="text"],
+ .mkoContactform input[type="email"],
+ .mkoContactform input[type="number"],
+ .mkoContactform input[type="tel"],
+ .mkoContactform select,
+ .mkoContactform.mktoForm .mktoField,
+ .mkoContactform textarea{
+    width: 100%!important;
+    border: solid 2px #000000!important;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 20px!important;
+    margin: 0!important;
+    min-height: 80px;
+ }
+.mkoContactform.mktoForm .mktoFormRow:nth-child(11){
+     display: none;
+ }
+ .mkoContactform.mktoForm .mktoFormRow:nth-child(8),
+ .mkoContactform.mktoForm .mktoFormRow:nth-child(12),
+ .mkoContactform.mktoForm .mktoFormRow:nth-child(13){
+    width: 100%!important;
+ }
+.mkoContactform.mktoForm .mktoRequiredField label.mktoLabel, .mkoContactform.mktoForm  .mktoLabel{
+    display: block!important;
+    font-size: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 700;
+    line-height: 1;
+    letter-spacing: 2.33px;
+    color: #2984fd;
+    text-transform: uppercase;
+    width: 100%!important;
+    font-weight: 700;
+    padding: 0 0 10px 0;
+}
+.mkoContactform.mktoForm .mktoAsterix{
+    float: none!important;
+    display: none!important;
+}
+
+.heroSection h2.mb--0{
+    margin-bottom: 0;
+}
+.mkoContactform.mktoForm textarea[rows="2"]{
+    height: auto!important;
+}
+.mkoContactform.mktoForm .mktoLogicalField{
+    padding: 0;
+    margin: 40px 0 0 0;
+    width: auto!important;
+    label{
+        width: auto;
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .mktoField{
+        float: left;
+        width: auto!important   ;
+        margin-top: 8px!important;
+        min-height: auto;
+    }
+}
+.mkoContactform.mktoForm .mktoButtonRow{
+    width: 100%!important;
+}
+
+.mkoContactform.mktoForm .mktoButtonWrap.mktoSimple .mktoButton{
+    background-color: #ffea00;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    border: none!important;
+    background-image: none;
+    text-transform: uppercase;
+    padding: 18px 60px;
+}
+#LblSubscribed_to_Newsletter__c{
+    width: auto!important;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    text-transform: inherit;
+    display: inline-block!important;
+    float: none;
+}
+.mkoContactform.mktoForm .mktoLogicalField .mktoField {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.mkoContactform.mktoForm .mktoLogicalField label{
+    position: relative;
+    margin-left: 0!important;
+}
+
+.mkoContactform.mktoForm .mktoLogicalField label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #000;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+
+.mkoContactform.mktoForm .mktoLogicalField .mktoField:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  width: 38px;
+  height: 38px;
+  background: url(../img/check-icon.png) no-repeat left top;
+}
+ .mkoContactform.mktoForm .mktoFormRow:nth-child(14) .mktoLogicalField{
+    margin-top: -10px!important;
+ }
+ .mkoContactform.mktoForm .mktoField.mktoInvalid{
+     border-color: #f00!important;
+ }
+ .mkoContactform.mktoForm .mktoError{
+     display: none!important;
+ }
+
+
+.mkoContactform select {
+    background: url(../img/select-bg.png) no-repeat;
+    background-position: right top;
+    border-right: 0 !important;
+    margin-top: 10px;
+    padding-right: 47px!important;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}

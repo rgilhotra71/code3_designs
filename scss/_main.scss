@@ -837,7 +837,117 @@ position: absolute;
   display: none;
   h2{
     color: #2984fd;
-    font-size: 90px;
+    font-size: 5.625em;
     text-transform: inherit!important;
   }
 }
+.contentSection{
+  .howWedo{
+    padding-top:90px;
+    h3{
+      font-size: 4.375em;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100;
+      color: #000;
+      padding-bottom: 15px;
+    }
+    .stickycontent{
+      max-width: 600px;
+      position: sticky;
+      top: 150px;
+    }
+    .movingcontent{
+      margin-top: 120px;
+      p{
+        font-size: 1.375em;
+        max-width: 600px;
+        padding: 50px 0 50px 50px;
+      }
+    }
+  }
+} 
+
+.wd-title{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3.125em;
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: -0.12px;
+  text-transform: uppercase;
+  background: #fff;
+  color: #000000;
+  padding-left: 50px;
+}
+.benifitsSection{
+  padding:195px 0 120px;
+  text-align: left;
+  .bn-box{
+    padding-top: 40px;
+    text-align: center;
+   p{
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size:1.750em;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .iconBox{
+      margin-bottom: 30px;
+    }
+  }
+}
+.ImageDescription{
+  background: #d8d8d8;
+  text-align: left;
+  picture{
+    display: block;
+    width: 100%;
+    img{
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .contentBox{
+    padding:10%;
+    max-width: 640px;
+    p{
+      font-size: 1.375em;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      line-height: 34px;
+      a{
+        color: #2984fd;
+      }
+    }
+  }
+}
+.readyForsection{
+    padding:150px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    .clickme{
+       font-size: 1.375em;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      color: #fff;
+      font-style: italic;
+      margin-top: 30px;
+      display: inline-block;
+      span {
+          display: inline-block;
+          width: 40px;
+          height: 27px;
+          background: url(../img/arrow.svg) no-repeat top right;
+          background-size: 87px;
+          vertical-align: text-top;
+          -webkit-transition: .3s;
+          transition: .3s;
+          
+      }
+    }
+}
+.innerPage-header.sticky .header-top .getTouch:hover{
+        background: #000!important;
+        color: #fff!important;
+    }

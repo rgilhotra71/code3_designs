@@ -273,7 +273,7 @@ h3 {
 .header-top {
   padding: 0 3%;
   position: fixed;
-  top: 50px;
+  top: 25px;
   width: 100%;
   z-index: 99;
   -webkit-box-sizing: border-box;
@@ -288,7 +288,7 @@ h3 {
   font-size: 20px;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
-  padding: 13px 20px;
+  padding: 6px 16px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   color: #2984FD;
@@ -307,7 +307,7 @@ h3 {
 
 .stikyLogo {
   position: fixed;
-  top: 54px;
+  top: 23px;
   left: 0;
   z-index: 9999;
   width: 100%;
@@ -457,7 +457,7 @@ h3 {
   height: 50px;
   display: inline-block;
   position: relative;
-  top: 6px;
+  top: 0px;
   z-index: 99999;
 }
 
@@ -799,7 +799,7 @@ nav li a:hover, nav li.active a {
 
 .boxContent span {
   font-size: 1.375em;
-  color: #ffea00;
+  color: #ffffff;
   font-style: italic;
   font-family: 'Roboto Condensed', sans-serif;
   text-decoration: none;
@@ -1299,7 +1299,7 @@ ul.nav-tabs li div.nav-link.active {
 }
 
 .footerLogo {
-  width: 300px;
+  width: 250px;
 }
 
 .video-container {
@@ -1667,7 +1667,7 @@ ul.nav-tabs li div.nav-link.active {
 }
 
 .contentSection p {
-  font-size: 2.625em;
+  font-size: 2.25em;
   color: #000000;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -1684,8 +1684,8 @@ ul.nav-tabs li div.nav-link.active {
 
 .p-content .circle {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background-color: #ffea00;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1696,7 +1696,7 @@ ul.nav-tabs li div.nav-link.active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 6.938em;
+  font-size: 6em;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 1;
@@ -1707,12 +1707,12 @@ ul.nav-tabs li div.nav-link.active {
 .p-content .circle span {
   width: 100%;
   font-size: 0.541em;
-  margin-top: -160px;
+  margin-top: -120px;
   margin-bottom: -20px;
 }
 
 .p-content p {
-  font-size: 3.750em;
+  font-size: 2.25em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   padding-bottom: 0;
@@ -1740,8 +1740,8 @@ ul.nav-tabs li div.nav-link.active {
 .mkoContactform textarea {
   width: 100% !important;
   border: solid 2px #000000 !important;
-  font-size: 24px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 24px !important;
+  font-family: 'Roboto', sans-serif !important;
   padding: 20px 20px !important;
   margin: 0 !important;
   min-height: 80px;
@@ -1934,8 +1934,8 @@ select {
   .getTouch {
     font-size: 12px;
     height: auto;
-    padding: 10px;
-    height: 40px;
+    /*padding: 10px;
+    height: 40px;*/
   }
   .toggle-menu {
     height: 33px;

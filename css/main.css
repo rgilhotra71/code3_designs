@@ -273,7 +273,7 @@ h3 {
 .header-top {
   padding: 0 3%;
   position: fixed;
-  top: 25px;
+  top: 50px;
   width: 100%;
   z-index: 99;
   -webkit-box-sizing: border-box;
@@ -288,7 +288,7 @@ h3 {
   font-size: 20px;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
-  padding: 6px 16px;
+  padding: 13px 20px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   color: #2984FD;
@@ -305,9 +305,14 @@ h3 {
   text-decoration: none;
 }
 
+.fp-viewing-codeSection .getTouch:hover {
+  background: #000;
+  color: #fff !important;
+}
+
 .stikyLogo {
   position: fixed;
-  top: 23px;
+  top: 54px;
   left: 0;
   z-index: 9999;
   width: 100%;
@@ -457,7 +462,7 @@ h3 {
   height: 50px;
   display: inline-block;
   position: relative;
-  top: 0px;
+  top: 6px;
   z-index: 99999;
 }
 
@@ -799,7 +804,7 @@ nav li a:hover, nav li.active a {
 
 .boxContent span {
   font-size: 1.375em;
-  color: #ffffff;
+  color: #ffea00;
   font-style: italic;
   font-family: 'Roboto Condensed', sans-serif;
   text-decoration: none;
@@ -1299,7 +1304,7 @@ ul.nav-tabs li div.nav-link.active {
 }
 
 .footerLogo {
-  width: 250px;
+  width: 300px;
 }
 
 .video-container {
@@ -1667,7 +1672,7 @@ ul.nav-tabs li div.nav-link.active {
 }
 
 .contentSection p {
-  font-size: 2.25em;
+  font-size: 2.625em;
   color: #000000;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -1684,8 +1689,8 @@ ul.nav-tabs li div.nav-link.active {
 
 .p-content .circle {
   border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background-color: #ffea00;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1696,7 +1701,7 @@ ul.nav-tabs li div.nav-link.active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 6em;
+  font-size: 6.938em;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 1;
@@ -1707,12 +1712,12 @@ ul.nav-tabs li div.nav-link.active {
 .p-content .circle span {
   width: 100%;
   font-size: 0.541em;
-  margin-top: -120px;
+  margin-top: -160px;
   margin-bottom: -20px;
 }
 
 .p-content p {
-  font-size: 2.25em;
+  font-size: 3.750em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   padding-bottom: 0;
@@ -1740,8 +1745,8 @@ ul.nav-tabs li div.nav-link.active {
 .mkoContactform textarea {
   width: 100% !important;
   border: solid 2px #000000 !important;
-  font-size: 24px !important;
-  font-family: 'Roboto', sans-serif !important;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
   padding: 20px 20px !important;
   margin: 0 !important;
   min-height: 80px;
@@ -1922,6 +1927,9 @@ select {
   .slideContent {
     font-size: 28px;
   }
+  ul.nav-tabs li div.nav-link {
+    font-size: 3.5em;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -1934,8 +1942,8 @@ select {
   .getTouch {
     font-size: 12px;
     height: auto;
-    /*padding: 10px;
-    height: 40px;*/
+    padding: 10px;
+    height: 40px;
   }
   .toggle-menu {
     height: 33px;
@@ -2077,7 +2085,12 @@ select {
   .fp-viewing-letUsKnowSection,
   .fp-viewing-7 .stikyLogo,
   .fp-viewing-letUsKnowSection .stikyLogo,
-  .fp-viewing-8 .stikyLogo {
+  .fp-viewing-8 .stikyLogo,
+  .fp-viewing-aboutSlide .stikyLogo,
+  .fp-viewing-aboutSlide1 .stikyLogo,
+  .fp-viewing-aboutSlide2 .stikyLogo,
+  .fp-viewing-codeSection .stikyLogo,
+  .fp-viewing-footerSection .stikyLogo {
     left: 50px;
   }
   .featuredClient .container {
@@ -2216,6 +2229,9 @@ select {
   }
   .mkoContactform.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
     width: 100%;
+  }
+  .tab-content p {
+    font-size: 22px;
   }
 }
 /*# sourceMappingURL=main.css.map */

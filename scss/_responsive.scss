@@ -15,12 +15,13 @@
     
 }
 
-@media only screen and (min-width:768px) and (max-width:1200px){
-         
+@media only screen and (min-width:768px) and (max-width:1200px){   
     .slideContent {
         font-size: 28px;
     }
-
+    ul.nav-tabs li div.nav-link{
+        font-size: 3.5em;
+    }
 }
 @media only screen and (max-width:767px) {
     body{
@@ -178,7 +179,12 @@
    .fp-viewing-letUsKnowSection, 
    .fp-viewing-7 .stikyLogo, 
    .fp-viewing-letUsKnowSection .stikyLogo,
-   .fp-viewing-8 .stikyLogo {
+   .fp-viewing-8 .stikyLogo,
+   .fp-viewing-aboutSlide .stikyLogo,
+   .fp-viewing-aboutSlide1 .stikyLogo,
+   .fp-viewing-aboutSlide2 .stikyLogo,
+   .fp-viewing-codeSection .stikyLogo,
+   .fp-viewing-footerSection .stikyLogo{
        left: 50px;
     }
     .featuredClient .container{
@@ -306,5 +312,8 @@
     }
     .mkoContactform.mktoForm .mktoButtonWrap.mktoSimple .mktoButton{
         width: 100%;
+    }
+    .tab-content p{
+        font-size: 22px;
     }
 }

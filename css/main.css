@@ -697,14 +697,52 @@ nav li a:hover, nav li.active a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0;
 }
 
 .logo-box img {
   max-height: 70px;
 }
 
-.plateform-l .logo-box {
-  margin: 20px 0;
+.logo-box a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 70%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  border: 2px solid #fff;
+  padding: 20px 0;
+  height: 140px;
+  max-width: 105px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.logo-box a:hover {
+  border-color: #000;
+}
+
+.logo-box a:hover span {
+  opacity: 1;
+}
+
+.logo-box a span {
+  width: 100%;
+  display: inline-block;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  opacity: 0;
 }
 
 .plateform-l .logo-box img {
@@ -1710,6 +1748,27 @@ ul.nav-tabs li div.nav-link.active {
   color: #fff !important;
 }
 
+.fp-viewing-sectionThree .signupFree,
+.fp-viewing-aboutUs .signupFree,
+.fp-viewing-aboutSlide .signupFree,
+.fp-viewing-aboutSlide1 .signupFree,
+.fp-viewing-aboutSlide2 .signupFree {
+  background: #ffea00;
+  color: #000 !important;
+}
+
+.fp-viewing-sectionThree .signupFree span,
+.fp-viewing-aboutUs .signupFree span,
+.fp-viewing-aboutSlide .signupFree span,
+.fp-viewing-aboutSlide1 .signupFree span,
+.fp-viewing-aboutSlide2 .signupFree span {
+  background-image: url(../img/arrow-black.svg);
+}
+
+.heroSection.contact_banner {
+  height: 256px;
+}
+
 .stikyLogo.innerPage {
   max-width: 55px;
   left: 50%;
@@ -1888,11 +1947,10 @@ ul.nav-tabs li div.nav-link.active {
 .mkoContactform textarea {
   width: 100% !important;
   border: solid 2px #000000 !important;
-  font-size: 24px;
+  font-size: 14px !important;
   font-family: 'Roboto', sans-serif;
-  padding: 20px 20px !important;
+  padding: 10px !important;
   margin: 0 !important;
-  min-height: 80px;
 }
 
 .mkoContactform.mktoForm .mktoFormRow:nth-child(11) {
@@ -1907,12 +1965,12 @@ ul.nav-tabs li div.nav-link.active {
 
 .mkoContactform.mktoForm .mktoRequiredField label.mktoLabel, .mkoContactform.mktoForm .mktoLabel {
   display: block !important;
-  font-size: 28px;
+  font-size: 18px;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
   line-height: 1;
   letter-spacing: 2.33px;
-  color: #2984fd;
+  color: #636363;
   text-transform: uppercase;
   width: 100% !important;
   font-weight: 700;
@@ -1929,12 +1987,12 @@ ul.nav-tabs li div.nav-link.active {
 }
 
 .mkoContactform.mktoForm textarea[rows="2"] {
-  height: auto !important;
+  height: 280px !important;
 }
 
 .mkoContactform.mktoForm .mktoLogicalField {
   padding: 0;
-  margin: 40px 0 0 0;
+  margin: 10px 0 0 0;
   width: auto !important;
 }
 
@@ -1974,7 +2032,7 @@ ul.nav-tabs li div.nav-link.active {
 
 #LblSubscribed_to_Newsletter__c {
   width: auto !important;
-  font-size: 24px;
+  font-size: 14px;
   font-family: 'Roboto', sans-serif;
   color: #000;
   text-transform: inherit;
@@ -1994,6 +2052,7 @@ ul.nav-tabs li div.nav-link.active {
 .mkoContactform.mktoForm .mktoLogicalField label {
   position: relative;
   margin-left: 0 !important;
+  font-size: 14px;
 }
 
 .mkoContactform.mktoForm .mktoLogicalField label:before {
@@ -2003,27 +2062,28 @@ ul.nav-tabs li div.nav-link.active {
   border: 2px solid #000;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
-  padding: 20px;
+  padding: 10px;
   display: inline-block;
   position: relative;
   vertical-align: middle;
   cursor: pointer;
-  margin-right: 25px;
+  margin-right: 20px;
 }
 
 .mkoContactform.mktoForm .mktoLogicalField .mktoField:checked + label:after {
   content: '';
   display: block;
   position: absolute;
-  top: 2px;
-  left: 10px;
-  width: 38px;
-  height: 38px;
+  top: -1px;
+  left: 2px;
+  width: 26px;
+  height: 26px;
+  background-size: 100% !important;
   background: url(../img/check-icon.png) no-repeat left top;
 }
 
 .mkoContactform.mktoForm .mktoFormRow:nth-child(14) .mktoLogicalField {
-  margin-top: -10px !important;
+  margin-top: -5px !important;
 }
 
 .mkoContactform.mktoForm .mktoField.mktoInvalid {
@@ -2063,6 +2123,12 @@ select {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .logo-box a {
+    height: 110px;
+  }
+  .logo-box a span {
+    font-size: 14px;
   }
 }
 
@@ -2414,6 +2480,16 @@ select {
   }
   .readyForsection .text {
     padding: 0 25px;
+  }
+  .logo-box a {
+    padding: 10px 0;
+    height: 70px;
+  }
+  .logo-box a span {
+    font-size: 10px;
+  }
+  .plateform-l .logo-box img {
+    width: 20px;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -18,7 +18,7 @@ if (fullpageJs) {
   var myFullpage = new fullpage('#fullpage', {
     verticalCentered: true,
     licenseKey: 'YOUR_KEY_HERE',
-    anchors: ['sectionOne', 'sectionTwo', 'sectionThree', 'homeSection', 'aboutUs', 'aboutSlide', 'aboutSlide1', 'aboutSlide2', 'letUsKnowSection', 'codeSection', 'footerSection'],
+    anchors: ['sectionOne', 'sectionTwo', 'sectionThree', 'homeSection', 'aboutUs', 'aboutSlide', 'aboutSlide1', 'aboutSlide2', 'letsTalkSection', 'letUsKnowSection', 'codeSection', 'footerSection'],
     menu: '#menu',
     afterLoad: function (origin, destination, direction) {
       history.pushState(null, null, " ");

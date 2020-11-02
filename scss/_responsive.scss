@@ -12,6 +12,12 @@
     .swiper-wrapper{
         align-items: center;
     }
+    .logo-box a{
+        height: 110px;
+        span{
+            font-size: 14px;
+        }
+    }
     
 }
 
@@ -356,5 +362,14 @@
     .readyForsection  .text{
         padding:0 25px;
     }
-    
+    .logo-box a{
+        padding: 10px 0;
+        height: 70px;
+    }
+    .logo-box a span{
+        font-size: 10px;
+    }
+    .plateform-l .logo-box img{
+        width: 20px;
+    }
 }

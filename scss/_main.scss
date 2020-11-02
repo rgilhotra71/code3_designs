@@ -72,13 +72,42 @@
   max-width: 80%;
   display: inline-flex;
   align-items: center;
+  margin: 0;
   img{
     max-height: 70px;
+  }
+  a{
+    display: inline-flex;
+    width: 70%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.1s;
+    border: 2px solid #fff;
+    padding: 20px 0;
+    height: 140px;
+    max-width: 105px;
+    border-radius: 4px;
+     text-decoration: none;
+    &:hover{
+      border-color:  #000;
+      span{
+        opacity: 1;
+      }
+    }
+    span{
+      width: 100%;
+      display: inline-block;
+      color: #000;
+      font-family: 'Roboto', sans-serif;
+     font-size: 14px;
+      opacity: 0;
+    }
   }
 }
 .plateform-l{
   .logo-box{
-    margin: 20px 0;
     img{
       width: 30px;
     }
@@ -948,6 +977,25 @@ position: absolute;
     }
 }
 .innerPage-header.sticky .header-top .getTouch:hover{
-        background: #000!important;
-        color: #fff!important;
-    }
+  background: #000!important;
+  color: #fff!important;
+}
+.fp-viewing-sectionThree .signupFree,
+.fp-viewing-aboutUs .signupFree,
+.fp-viewing-aboutSlide .signupFree,
+.fp-viewing-aboutSlide1 .signupFree,
+.fp-viewing-aboutSlide2 .signupFree
+{
+  background: #ffea00;
+  color: #000!important;
+}
+.fp-viewing-sectionThree .signupFree span,
+.fp-viewing-aboutUs .signupFree span,
+.fp-viewing-aboutSlide .signupFree span,
+.fp-viewing-aboutSlide1 .signupFree span,
+.fp-viewing-aboutSlide2 .signupFree span{
+  background-image: url(../img/arrow-black.svg) ;
+}
+.heroSection.contact_banner{
+  height: 256px;
+}
